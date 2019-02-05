@@ -7,7 +7,7 @@ import (
 	"github.com/joho/godotenv"
 )
 
-// Obviously incomplete testing. Testing handlers is quite comprehensive
+// Incomplete testing. Tests for route handlers are quite comprehensive
 func TestGetWeather(t *testing.T) {
 	err := godotenv.Load("../.env")
 	if err != nil {
