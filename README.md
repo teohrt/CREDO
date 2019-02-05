@@ -2,15 +2,15 @@
 
 ### Create an API with two endpoints:
 1. countcaps/{someString}
-    a. Takes a string as input
-    b. Returns the number of capital letters in the string.
-    c. Write unit tests.
+    * Takes a string as input
+    * Returns the number of capital letters in the string.
+    * Write unit tests.
  2. weather/favorites
-    a.  Takes no input
-    b. Looks up the weather in 5 zipcodes using openweather.org
-    c. Use go routines
-    d. Use channels
-    e. Returns a JSON with an array of zipcode/tempature elements
+    *  Takes no input
+    * Looks up the weather in 5 zipcodes using openweather.org
+    * Use go routines
+    * Use channels
+    * Returns a JSON with an array of zipcode/tempature elements
 ___
 ## How do I run it?
 
